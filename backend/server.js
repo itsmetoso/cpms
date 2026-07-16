@@ -30,7 +30,7 @@ app.get('/api', (req, res) => {
   res.json({ message: 'CPMS Backend API is running 🚀' });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Backend running on port ${PORT}`);
 });
